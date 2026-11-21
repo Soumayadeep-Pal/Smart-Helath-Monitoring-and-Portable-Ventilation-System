@@ -1,0 +1,51 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+secret.py
+key.json
+credentials/
+*.pem
+*.key
+
+# Frontend / Node / Capacitor
+node_modules/
+frontend/build/
+dist/
+coverage/
+.capacitor/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/ios/Pods/
+
+# Backend / Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Firmware / Arduino build artifacts
+*.o
+*.d
+*.elf
+*.bin
+*.eep
+*.lss
+*.sym
+*.map
+*.build/
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/arduino.json
+!.vscode/c_cpp_properties.json
+.idea/
+*.swp
